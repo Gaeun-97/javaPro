@@ -28,6 +28,7 @@ public class Ex04 {
 		//git 명령어 찾아보기
          
 		Scanner scanner = new Scanner(System.in);
+		//???
 		
 		
 
