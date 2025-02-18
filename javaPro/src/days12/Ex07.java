@@ -69,7 +69,7 @@ public class Ex07 {
 	      int [][][] kors = new int[3][10][30];
 	      // kors[1][6][14]
 	      int tot = 0;
-	      for (int i = 0; i < 15; i++) {
+	      for (int i = 0; i < 30; i++) {
 	         tot +=kors[1][6][i];
 	      } // for i
 	      double avg = (double)tot/30;
