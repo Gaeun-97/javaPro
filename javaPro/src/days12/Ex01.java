@@ -78,7 +78,7 @@ public class Ex01 {
 				if(tots[i]<tots[j]) {
 					ranks[i]++;
 				}
-				
+				//학생 수 
 			} //for j
 			
 		} //for i

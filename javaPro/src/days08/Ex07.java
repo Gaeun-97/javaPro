@@ -31,7 +31,8 @@ public class Ex07 {
 	     lotto[index++] =getRandomInteger(1,45);
 	     while ( index <= 5 ) {
 	         n =  getRandomInteger(1,45);
-	               if(!isDuplicateLotto(lotto, n, index) ) lotto[index++] = n;// 배열, 찾을값,찾을 위치값
+	               if(!isDuplicateLotto(lotto, n, index) ) 
+	            	   lotto[index++] = n;// 배열, 찾을값,찾을 위치값
 	            }
 	}
 //함수들 기억해두기
