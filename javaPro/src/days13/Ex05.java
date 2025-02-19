@@ -31,7 +31,7 @@ public class Ex05 {
 		
 		//만약 찾는 값이 배열 속에 없다면 -1 반환
 		int index = sequenceSearch(m,n);
-		//index 부분이 2차원 배열이 되어야 하는거..아닌가?
+		
 		
 		if (index != -1) {
 			System.out.printf("찾는 정수 %d는 %d 위치에 있다.",n,index);
@@ -39,6 +39,7 @@ public class Ex05 {
 			System.out.println("찾는 정수 없다.");
 
 		}
+		//로직 :  sequenceSearch를 사용해서 값의 위
 
 	}
 	private static int sequenceSearch(int[] m, int n) {
@@ -49,7 +50,7 @@ public class Ex05 {
 			System.out.printf("찾는 정수 %d는 %d 위치에 있다.\n",n,index);
 		} //for i
 		return index;
-		//여기도 건드려야하고...?
+	
 		
 	}
 
